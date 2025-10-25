@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
-const numPixels = 25; // количество пикселей
+const numPixels = 25; 
 const pixels = [];
 for (let i = 0; i < numPixels; i++) {
   const pixel = document.createElement("div");
@@ -82,4 +82,5 @@ function animatePixels() {
   requestAnimationFrame(animatePixels);
 }
 animatePixels();
+
 
